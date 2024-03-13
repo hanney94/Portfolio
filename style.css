@@ -79,7 +79,7 @@ a.nav-link:active {
 
 .heading {
     font-family: "Londrina Solid", sans-serif;
-    font-size: 4em;
+    font-size: 6em;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: rgb(212, 170, 245);
     color: rgb(255, 255, 255);
