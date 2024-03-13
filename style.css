@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-toggler {
+    border: none;
+    color:rgb(138, 225, 210);
+}
+
+.navbar-brand { 
+    font-family: "Londrina Outline", sans-serif;
+    margin-left: 10px;
+}
+
+.flower {
+    width: 30px;
+}
+
+.navbar-brand:hover{
+    color: rgb(114, 168, 148);
+}
+
+nav.navbar.navbar-expand-lg.fixed-top{
+    justify-content: center;
+    background-color: rgba(212, 170, 245, 0.9);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nav-link {
+    padding: 10px;
+    color: rgb(138, 225, 210);
+    font-size: 20px;
+}
+a.nav-link:hover {
+    cursor: pointer;
+    color:rgb(255, 255, 255);
+}
+
+a.nav-link:active {
+    color: black;
+}
+
+.icon-links {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    text-decoration: none;
+    color:rgb(138, 225, 210);
+    font-size: 20px;
+    margin: 10px;
+}
+
+.icons:hover {
+    color:rgb(255, 255, 255);
+}
+
+
+
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 4em;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(212, 170, 245);
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+.title {
+    font-size: 25px;
+    color:rgb(250, 205, 141);
+    font-family: "PT Sans Narrow", sans-serif;
+    
+}
+
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.skill-icons {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    color:rgb(250, 205, 141) ;
+}
+
+.container-icons {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 20px;
+}
+
+.skill-list {
+    margin-top: 20px;
+    color: white;
+    font-size: 3em;
+    font-family: "Londrina Solid", sans-serif;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(212, 170, 245);
+}
+
+.skill-list:hover {
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(250, 205, 141);
+}
+
+
+.skill-title {
+    color:rgb(212, 170, 245);
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.project {
+    margin-top: 80px;
+    color: rgb(255, 255, 255);
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(212, 170, 245);
+}
+
+.project:hover {
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(250, 205, 141);
+}
+
+.websites {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
+
+.websites:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.498);
+    cursor: pointer;
+
+}
+
+.screenshot {
+    width: 80vw;
+    border-radius: 20px;
+    border-bottom: 0.5px solid gray;
+
+}
+
+.description {
+    font-size: 20px;
+    margin-top: 30px;
+    color:rgb(212, 170, 245);
+}
+
+.button {
+    background-color:rgb(138, 225, 210);
+    border-radius: 10px;
+    border: none;
+    width: 45%;
+    height: 40px;
+    margin-bottom: 30px;
+  
+}
+
+.button:hover{
+    background-color:rgb(250, 205, 141);
+
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.contact-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+    color:rgb(250, 205, 141);
+    font-size: 20px;
+}
+
+.contact:hover {
+    color:rgb(138, 225, 210);
+    cursor: pointer;
+}
+
+.contact-me {
+    color: white;
+    font-size: 3em;
+    font-family: "Londrina Solid", sans-serif;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(212, 170, 245);
+}
+
+.contact-me:hover {
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(250, 205, 141);
+}
+
+
+
+@media screen and (min-width : 768px) {
+
+    .nav-link {
+        margin-left: 30px;
+    }
+
+    .screenshot {
+        width: 30vw;
+        height: 28vh;
+    }
+
+    .projects {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .websites {
+        margin: 20px;
+
+    }
+   
+    .icon-links {
+        display: none;
+    }
+
+    .contact-links {
+        margin-top: 60px;
+    }
+
+    .contact {
+        margin-top: 20px;
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .heading {
+        font-size: 7em;
+    }
+
+    .container-icons {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+}
